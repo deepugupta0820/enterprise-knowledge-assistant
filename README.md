@@ -54,7 +54,7 @@ I --> J[Answer + Source References]
 ## Installation
 
 ```bash
-git clone <repo>
+git clone https://github.com/deepugupta0820/enterprise-knowledge-assistant.git
 
 cd enterprise-knowledge-assistant
 
