@@ -136,6 +136,46 @@ The assistant is instructed to:
 
 ---
 
+## Retrieval Evaluation
+
+The evaluation uses a labelled test set and three information-retrieval metrics:
+
+- **Precision@K**: fraction of the top-K retrieved pages that are relevant.
+- **Recall@K**: fraction of the labelled relevant pages found in the top-K results.
+- **MRR (Mean Reciprocal Rank)**: rewards placing the first relevant result at a high rank.
+
+### Evaluation files
+
+```text
+evaluation/
+├── eval_dataset.json
+└── evaluate_retrieval.py
+```
+
+`eval_dataset.json` contains test questions and their ground-truth relevant pages. `evaluate_retrieval.py` loads the **existing FAISS index** and calculates Precision@1/2/4, Recall@1/2/4 and MRR@1/2/4. It does not change the Streamlit UI.
+
+### Run evaluation
+
+First use the existing application normally to upload and index the PDFs. Then, from the project root, run:
+
+```bash
+python evaluation/evaluate_retrieval.py
+```
+
+For custom K values:
+
+```bash
+python evaluation/evaluate_retrieval.py --k 1 2 4
+```
+
+Detailed per-query results are written to:
+
+```text
+evaluation/evaluation_results.json
+```
+
+---
+
 ## Known Limitations
 - Only PDF documents supported
 - No OCR for scanned PDFs
