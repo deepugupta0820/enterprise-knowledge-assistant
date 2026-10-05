@@ -1,0 +1,642 @@
+{
+  "description": "Page-level retrieval evaluation for the Enterprise Knowledge Assistant",
+  "top_k_used_for_retrieval": 4,
+  "num_queries": 12,
+  "metrics": {
+    "precision@1": 0.75,
+    "recall@1": 0.75,
+    "mrr@1": 0.75,
+    "precision@2": 0.4166666666666667,
+    "recall@2": 0.8333333333333334,
+    "mrr@2": 0.7916666666666666,
+    "precision@4": 0.3194444444444444,
+    "recall@4": 0.9166666666666666,
+    "mrr@4": 0.8194444444444445
+  },
+  "per_query": [
+    {
+      "question": "How many days of unauthorized absence can make an employee's contract liable for termination?",
+      "relevant_pages": [
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "hr-policy.pdf",
+          9
+        ],
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "hr-policy.pdf",
+          9
+        ],
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "metrics": {
+        "precision@1": 0.0,
+        "recall@1": 0.0,
+        "mrr@1": 0.0,
+        "precision@2": 0.0,
+        "recall@2": 0.0,
+        "mrr@2": 0.0,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 0.3333333333333333
+      }
+    },
+    {
+      "question": "How many leaves can employees carry forward to the next year?",
+      "relevant_pages": [
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "hr-policy.pdf",
+          5
+        ],
+        [
+          "hr-policy.pdf",
+          4
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "hr-policy.pdf",
+          5
+        ],
+        [
+          "hr-policy.pdf",
+          4
+        ],
+        [
+          "hr-policy.pdf",
+          4
+        ],
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.5,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "What are the company's weekly offs and is the second Saturday off?",
+      "relevant_pages": [
+        [
+          "hr-policy.pdf",
+          8
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          8
+        ],
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          8
+        ],
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          5
+        ]
+      ],
+      "metrics": {
+        "precision@1": 0.0,
+        "recall@1": 0.0,
+        "mrr@1": 0.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 0.5,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 0.5
+      }
+    },
+    {
+      "question": "What time should employees start work, and how often is flexi-entry allowed?",
+      "relevant_pages": [
+        [
+          "hr-policy.pdf",
+          9
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "hr-policy.pdf",
+          9
+        ],
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          8
+        ],
+        [
+          "hr-policy.pdf",
+          4
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "hr-policy.pdf",
+          9
+        ],
+        [
+          "hr-policy.pdf",
+          7
+        ],
+        [
+          "hr-policy.pdf",
+          8
+        ],
+        [
+          "hr-policy.pdf",
+          4
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.25,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "What does the work from home policy cover?",
+      "relevant_pages": [
+        [
+          "hr-policy.pdf",
+          14
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "hr-policy.pdf",
+          14
+        ],
+        [
+          "hr-policy.pdf",
+          9
+        ],
+        [
+          "hr-policy.pdf",
+          16
+        ],
+        [
+          "hr-policy.pdf",
+          18
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "hr-policy.pdf",
+          14
+        ],
+        [
+          "hr-policy.pdf",
+          9
+        ],
+        [
+          "hr-policy.pdf",
+          16
+        ],
+        [
+          "hr-policy.pdf",
+          18
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.25,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "Can users reject cookies and still use the website?",
+      "relevant_pages": [
+        [
+          "cookies policy.pdf",
+          2
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "cookies policy.pdf",
+          2
+        ],
+        [
+          "privacy policy.pdf",
+          14
+        ],
+        [
+          "cookies policy.pdf",
+          1
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "cookies policy.pdf",
+          2
+        ],
+        [
+          "privacy policy.pdf",
+          14
+        ],
+        [
+          "cookies policy.pdf",
+          1
+        ],
+        [
+          "cookies policy.pdf",
+          2
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "What are web beacons and other tracking technologies used for?",
+      "relevant_pages": [
+        [
+          "cookies policy.pdf",
+          3
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "cookies policy.pdf",
+          3
+        ],
+        [
+          "privacy policy.pdf",
+          10
+        ],
+        [
+          "privacy policy.pdf",
+          9
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "cookies policy.pdf",
+          3
+        ],
+        [
+          "privacy policy.pdf",
+          10
+        ],
+        [
+          "cookies policy.pdf",
+          3
+        ],
+        [
+          "privacy policy.pdf",
+          9
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "How can a user opt out of processing of personal information by AI products?",
+      "relevant_pages": [
+        [
+          "privacy policy.pdf",
+          11
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "privacy policy.pdf",
+          11
+        ],
+        [
+          "privacy policy.pdf",
+          10
+        ],
+        [
+          "privacy policy.pdf",
+          12
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "privacy policy.pdf",
+          11
+        ],
+        [
+          "privacy policy.pdf",
+          10
+        ],
+        [
+          "privacy policy.pdf",
+          12
+        ],
+        [
+          "privacy policy.pdf",
+          10
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "What rights does a user have to review, update, or delete personal information?",
+      "relevant_pages": [
+        [
+          "privacy policy.pdf",
+          17
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "privacy policy.pdf",
+          13
+        ],
+        [
+          "privacy policy.pdf",
+          12
+        ],
+        [
+          "privacy policy.pdf",
+          15
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "privacy policy.pdf",
+          13
+        ],
+        [
+          "privacy policy.pdf",
+          12
+        ],
+        [
+          "privacy policy.pdf",
+          12
+        ],
+        [
+          "privacy policy.pdf",
+          15
+        ]
+      ],
+      "metrics": {
+        "precision@1": 0.0,
+        "recall@1": 0.0,
+        "mrr@1": 0.0,
+        "precision@2": 0.0,
+        "recall@2": 0.0,
+        "mrr@2": 0.0,
+        "precision@4": 0.0,
+        "recall@4": 0.0,
+        "mrr@4": 0.0
+      }
+    },
+    {
+      "question": "What happens if a user cancels a booking more than 48 hours before the session?",
+      "relevant_pages": [
+        [
+          "refund and cancellations policy.pdf",
+          2
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "refund and cancellations policy.pdf",
+          2
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ],
+        [
+          "hr-policy.pdf",
+          9
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "refund and cancellations policy.pdf",
+          2
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          2
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ],
+        [
+          "hr-policy.pdf",
+          9
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "Who makes the final decision about the refund amount?",
+      "relevant_pages": [
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          2
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          2
+        ],
+        [
+          "refund and cancellations policy.pdf",
+          1
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.5,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    },
+    {
+      "question": "What security measures are used to protect personal information?",
+      "relevant_pages": [
+        [
+          "privacy policy.pdf",
+          13
+        ]
+      ],
+      "retrieved_pages": [
+        [
+          "privacy policy.pdf",
+          13
+        ],
+        [
+          "privacy policy.pdf",
+          15
+        ],
+        [
+          "privacy policy.pdf",
+          3
+        ]
+      ],
+      "retrieved_chunk_pages": [
+        [
+          "privacy policy.pdf",
+          13
+        ],
+        [
+          "privacy policy.pdf",
+          15
+        ],
+        [
+          "privacy policy.pdf",
+          3
+        ],
+        [
+          "privacy policy.pdf",
+          15
+        ]
+      ],
+      "metrics": {
+        "precision@1": 1.0,
+        "recall@1": 1.0,
+        "mrr@1": 1.0,
+        "precision@2": 0.5,
+        "recall@2": 1.0,
+        "mrr@2": 1.0,
+        "precision@4": 0.3333333333333333,
+        "recall@4": 1.0,
+        "mrr@4": 1.0
+      }
+    }
+  ]
+}

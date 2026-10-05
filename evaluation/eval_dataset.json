@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How many days of unauthorized absence can make an employee's contract liable for termination?",
+    "relevant_pages": [{"source": "HR-Policy.pdf", "page": 5}]
+  },
+  {
+    "question": "How many leaves can employees carry forward to the next year?",
+    "relevant_pages": [{"source": "HR-Policy.pdf", "page": 5}]
+  },
+  {
+    "question": "What are the company's weekly offs and is the second Saturday off?",
+    "relevant_pages": [{"source": "HR-Policy.pdf", "page": 8}]
+  },
+  {
+    "question": "What time should employees start work, and how often is flexi-entry allowed?",
+    "relevant_pages": [{"source": "HR-Policy.pdf", "page": 9}]
+  },
+  {
+    "question": "What does the work from home policy cover?",
+    "relevant_pages": [{"source": "HR-Policy.pdf", "page": 14}]
+  },
+  {
+    "question": "Can users reject cookies and still use the website?",
+    "relevant_pages": [{"source": "Cookies Policy.pdf", "page": 2}]
+  },
+  {
+    "question": "What are web beacons and other tracking technologies used for?",
+    "relevant_pages": [{"source": "Cookies Policy.pdf", "page": 3}]
+  },
+  {
+    "question": "How can a user opt out of processing of personal information by AI products?",
+    "relevant_pages": [{"source": "PRIVACY POLICY.pdf", "page": 11}]
+  },
+  {
+    "question": "What rights does a user have to review, update, or delete personal information?",
+    "relevant_pages": [{"source": "PRIVACY POLICY.pdf", "page": 17}]
+  },
+  {
+    "question": "What happens if a user cancels a booking more than 48 hours before the session?",
+    "relevant_pages": [{"source": "Refund and Cancellations Policy.pdf", "page": 2}]
+  },
+  {
+    "question": "Who makes the final decision about the refund amount?",
+    "relevant_pages": [{"source": "Refund and Cancellations Policy.pdf", "page": 1}]
+  },
+  {
+    "question": "What security measures are used to protect personal information?",
+    "relevant_pages": [{"source": "PRIVACY POLICY.pdf", "page": 13}]
+  }
+]
